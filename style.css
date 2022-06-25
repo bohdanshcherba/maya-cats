@@ -1,0 +1,62 @@
+h1 {
+    text-align: center;
+    background-color: rgb(253, 198, 135);
+}
+
+h2 {
+    text-align: center;
+    color: rgb(85, 3, 3);
+    font-family: 'Fira Sans', sans-serif;
+}
+
+img {
+    border-radius: 45px;
+    border: 1px solid black;
+}
+
+h3 {
+    text-align: center;
+}
+
+main img {
+    height: 490px;
+    width: 500;
+    border-radius: 45px;
+    border: 1px solid black;
+    margin-left: 320px;
+}
+
+footer h3 {
+    text-align: center;
+
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+footer{
+    height: 100px;
+    background-color: rgb(253, 198, 135);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery_item {
+    height: 400px;
+    width: 300px!important;
+    opacity: 0.5;
+    transition-duration: 0.5s;
+}
+
+.gallery_item:hover{
+    opacity: 1;
+}
